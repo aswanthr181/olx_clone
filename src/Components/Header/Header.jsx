@@ -13,7 +13,6 @@ function Header() {
   const { user } = useContext(AuthContext)
   const { firebase } = useContext(FirebaseContext)
   const navigate = useNavigate()
-
   const handleSignout = () => {
     const auth = getAuth(firebase)
 

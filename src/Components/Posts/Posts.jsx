@@ -28,6 +28,7 @@ function Posts() {
         }
       })
 console.log(allpost,'checkinnnnnnn post');
+
       setProdcts(allpost)
     }
     fetchData()
@@ -42,11 +43,12 @@ console.log(allpost,'checkinnnnnnn post');
         </div>
         <div className="cards">
 
-          {products.map(product => {
+          {products.map((product,i) => {
 
 
             return(
             <div
+            key={i}
               className="card"
               onClick={()=>{
                 setPostDetails(product)
