@@ -6,13 +6,7 @@ import {getFirestore} from 'firebase/firestore'
 // dotenv.config()
 
 const firebaseConfig = {
-    // apiKey: "AIzaSyCM4LAt4CQaYb52rWPp_eysKpAC0fd_jvM",
-    // authDomain: "olxdemo-ae7d9.firebaseapp.com",
-    // projectId: "olxdemo-ae7d9",
-    // storageBucket: "olxdemo-ae7d9.appspot.com",
-    // messagingSenderId: "766460513100",
-    // appId: "1:766460513100:web:9ef3117248b273d6f2dde9",
-    // measurementId: "G-SFKQK8LVKS",
+    
     apiKey: import.meta.env.VITE_REACT_APP_apiKey,
     authDomain: import.meta.env.VITE_REACT_APP_authDomain,
     projectId: import.meta.env.VITE_REACT_APP_projectId,
